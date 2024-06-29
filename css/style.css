@@ -1,0 +1,485 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 20px;
+    color: #686868;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+h3 {
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    font-weight: 200;
+    color: #303030;
+
+}
+
+.home {
+    background-image: url(../imgs/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 97vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.nav {
+    /* background-color: red; */
+}
+.nav-parent {
+    width: 88%;
+    /* background-color: yellowgreen; */
+    margin: auto;
+    overflow: auto;
+}
+
+.nav-logo {
+    /* background-color: burlywood; */
+    display: inline-block;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.nav-logo img {
+    width: 100%;
+    /* display: block; */
+    text-align: left;
+
+}
+
+.nav-links {
+    /* background-color: blueviolet; */
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    text-align: right;
+    margin-left: 30px;
+}
+
+.nav-links ul {
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    /* background-color: green; */
+    /* width: 300px; */
+}
+.nav-links ul li {
+    display: inline-block;
+    padding: 10px;
+    /* background-color: aqua; */
+    margin-right: 10px;
+}
+.nav-links ul li:first-child {
+    border-top: 1px solid #8E7753;
+
+}
+.nav-links ul li a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.nav-links ul li a:hover {
+    color: #8E7753;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear-fix {
+    clear: both;
+}
+
+/* Home-Content */
+.home .home-content {
+    /* background-color: red; */
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    color: #fff;
+}
+
+.home-content span {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 160%;
+    /* background-color: blue; */
+    display: block;
+
+}
+
+.home-content h1 {
+    font-size: 550%;
+    font-weight: 300;
+    /* background-color: blueviolet; */
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.home-content p {
+    font-weight: 300;
+    font-size: 180%;
+    margin: 0px auto 30px;
+    width: 83%;
+    line-height: 2;
+    color: #fff;
+    /* background-color: blueviolet; */
+}
+
+.home-content button {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    border: 2px solid #8E7753;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-content button:first-of-type {
+    background-color: #8E7753;
+    margin-right: 15px;
+}
+
+.home-content button:first-of-type:hover {
+    color: #8E7753;
+    background-color: #fff;
+    transition-duration: 0.4s;
+}
+
+.home-content button:last-of-type {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.home-content button:last-of-type:hover {
+    color: #8E7753;
+    background-color: #fff;
+    transition-duration: 0.4s;
+}
+
+/* ABOUT */
+.about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* background-color: red; */
+    margin-left: auto;
+}
+
+.about-parent {
+    width: 90%;
+    /* background-color: #303030; */
+    margin: auto;
+}
+
+.about-image {
+    width: 500px;
+    display: inline-block;
+    /* background-color: green; */
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.about-image img {
+    width: 100%;
+    display: block;
+}
+
+.right {
+    /* background-color: aqua; */
+    padding: 20px;
+    width: 600px;
+    display: inline-block;
+
+}
+
+.about-ic-parent {
+    /* background-color: yellow; */
+    width: 500px;
+    padding: 10px;
+}
+
+.about-ic {
+    margin-bottom: 10px;
+}
+
+.about-ic .ic {
+    width: 40px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.about-ic p {
+    display: inline-block;
+}
+
+.about-ic .ic img {
+    width: 100%;
+    border: 1px solid #8E7753;
+    background-color: #fff;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/* OUR LOCATION */
+.our {
+    background-color: #F8F8F8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our-parent {
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.our-left {
+    /* background-color: goldenrod; */
+    width: 600px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 60px 0px;
+}
+
+
+.our-right {
+    /* background-color: blue; */
+    width: 500px;
+    display: inline-block;
+}
+
+.our-right our-image {
+    width: 180px;
+}
+
+.our-right img {
+    display: block;
+    width: 100%;
+}
+
+/* OUR BAKING */
+
+.baking {
+    /* background-color: red; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.baking-up {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: aqua; */
+}
+.baking-down-parent {
+    /* background-color: blue; */
+}
+.baking-down {
+    /* background-color: violet; */
+    width: 27.3333333333%;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+    overflow: auto;
+}
+
+.baking-down {
+    margin: 3%;
+}
+.baking-image {
+    width: 100%;
+    background-color: green;
+
+}
+.baking-image img {
+    width: 100%;
+    display: block;
+}
+
+.baking-down h4 {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.baking-down p {
+    font-size: 17px;
+}
+
+/* Contact Information */
+
+.contact-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F8F8F8;
+    overflow: auto;
+}
+
+.info-parent {
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+
+}
+
+.contact-info .info-left {
+    /* background-color: green; */
+    width: 550px;
+    padding: 30px;
+    float: left;
+}
+
+.info-left .info-up {
+    /* background-color: violet; */
+}
+
+.info-left .info-down .info-ic {
+    /* background-color: aqua; */
+    width: 80%;
+}
+
+.info-left .info-down .info-ic .info-image {
+    width: 40px;
+    background-color: #8E7753;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+    
+}
+
+.info-left .info-down .info-ic .info-image img {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.contact-info .info-right {
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+/* some-links */
+
+
+.some-links {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #3F3D39;
+    /* align-items: center; */
+}
+
+.l-some-links-parent {
+    /* background-color: yellow; */
+    width: 90%;
+    padding: 1%;
+    margin: auto;
+    overflow: auto;
+}
+
+.some-links .l-about-us {
+    /* background-color: rgb(197, 146, 244); */
+    width: 20%;
+    padding: 20px;
+    float: left;
+    margin: 1%;
+}
+
+.some-links .l-about-us h4 {
+    /* font-size: 22px; */
+    font-weight: 300;
+    color: #fff;
+    /* background-color: blue; */
+}
+
+.l-about-us p {
+    color: #969696;
+    border-bottom: 1px solid rgb(255 255 255 / 5%);
+    font-size: 17px;
+}
+
+.l-about-us p span {
+    margin-right: 10px;
+}
+.l-about-us .ic {
+    width: 260px;
+    overflow: auto;
+    cursor: pointer;
+
+    /* background-color: green; */
+}
+
+.l-about-us .ic p {
+    font-size: 15px;
+    /* background-color: blue; */
+}
+.ic p:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+.l-about-us .ic-parent {
+    width: 260px;
+    background-image: url(../imgs/contact-details-map.png);
+    background-size: 90% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.l-about-us .ic .l-image {
+    width: 50px;
+    float: left;
+    /* background-color: red; */
+}
+
+.l-about-us .ic .l-image img {
+    display: block;
+    width: 100%;
+}
+
+/* Foot */
+
+.foot {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #353330;
+    text-align: center;
+}
+
